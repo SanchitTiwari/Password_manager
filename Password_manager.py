@@ -4,7 +4,7 @@ from hashlib import sha256
 
 ADMIN_PASSWORD = "123456"
 
-connect = input("What is your password?\n")
+connect = input("Please enter your password\n")
 
 while connect != ADMIN_PASSWORD:
     connect = input("What is your password?\n")
